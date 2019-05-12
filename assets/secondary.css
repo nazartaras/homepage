@@ -1,0 +1,13 @@
+.timeline li:before {
+    content:'';
+    display:inline-block;
+    height:1em;
+    width:1em;
+    background-image:url('https://image.flaticon.com/icons/svg/1477/1477228.svg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding-left: 2em;
+}
+main{
+    background-color: #4E4E50; 
+}
