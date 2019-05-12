@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/secondary.css">
     <title>Résumé</title>
   </head>
   <body>
@@ -17,8 +18,7 @@
                   <object class="avatar" data="./assets/avatarEvil.svg" role="img" aria-label="My evil alter ego avatar" style="display:none;" id="avatarEvil"></object>
                 </div>
                 <div class="avatar-switch-wrapper">
-                  <button id="btnShowAvatarNormal">Normal</button>
-                  <button id="btnShowAvatarEvil">Evil</button>
+                  <button id="btnSwitchAvatar" title="">Evil</button>
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -179,7 +179,7 @@
               <div class="six wide column">
                 <section>
                   <h3>LANGUAGES</h3>
-                  <p class="tags small"> <span class="language" lang="en">&#x1f1fa;&#x1f1f8;ENGLISH</span><span class="language" lang="cn"> &#x1f1e8;&#x1f1f3;MANDARIN</span><span class="language" lang="jp"> &#x1f1ef;&#x1f1f5;JAPANESE</span><p>
+                  <p class="tags small"> <span class="language" lang="en">&#x1F1FA;&#x1F1F8;ENGLISH</span><span class="language" lang="cn"> &#x1f1e8;&#x1f1f3;MANDARIN</span><span class="language" lang="jp"> &#x1f1ef;&#x1f1f5;JAPANESE</span><p>
                 </section>
    
                 <section>
@@ -253,8 +253,149 @@
                 </ul>
                 </section>
                 <section>
+                  <h3>Abilities</h3>
+                  <ul class="abilities">
+                      <li class="details">
+                          <input type="checkbox" id="other">
+                          <label for="other" class="summary">Shoryuken</label>
+                          <div>
+                              A jumping, spinning uppercut, perfect for attacking jumping opponents or as a reversal.
+                              <ul>
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Shin Shoryken</label>
+                                      <div>
+                                          I dashe forward with a midsection blow before finishing his foe off with a crushing 2-hit Shoryuken
+                                      </div>
+                                  </li>
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Metsu Shoryuken</label>
+                                      <div>
+                                          A Dark Hado-enhanced Shoryuken, where I punche the opponent in their gut before connecting with a brutal Shoryuken to their chin
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>Hado Shoryuken</div>
+                                  </li>
+                                  <li>
+                                      <div>Forbidden Shoryuken</div>
+                                  </li>
+                              </ul>
+                          </div>
+                        </li>
+                        <li class="details">
+                            <input type="checkbox" id="other">
+                            <label for="other" class="summary">Tatsumaki Senpukyaku</label>
+                            <div>
+                                A jumping kick in which I rotate my legs in a hurricane-like formation
+                                <ul>
+                                    <li class="details">
+                                        <input type="checkbox" id="other">
+                                        <label for="other" class="summary">Shinku Tatsumaki Senpukyaku</label>
+                                        <div>
+                                            An upgraded, stationary Tatsumaki Senpukyaku with an added vacuum effect, allowing me to suck in nearby opponents and hit them multiple times
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                          </li>
+                          <li class="details">
+                              <input type="checkbox" id="other">
+                              <label for="other" class="summary">Hadoken</label>
+                              <div>
+                                  An energy projectile created from my willpower. Those hit by it feel the force of a staggering kick with lingering pain.
+                                  <ul>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Shakunetsu Hadoken</label>
+                                          <div>
+                                              A Hadoken imbued with the power of fire. Acts as a separate move in SFII and Alpha, and as my EX Hadoken from the III series onward
+                                          </div>
+                                      </li>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Denjin Hadoken</label>
+                                          <div>
+                                              A chargeable, electrified version of the Shinku Hadoken. Those hit with a fully-charged blast are stunned, giving me another opening to attack
+                                          </div>
+                                      </li>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Shinku Hadoken</label>
+                                          <div>
+                                              A powerful, multi-hitting Hadoken which can beat out smaller or weaker projectiles
+                                          </div>
+                                      </li>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Metsu Hadoken</label>
+                                          <div>
+                                              A variant of the Shinku Hadouken done with the Satsui no Hado. I can perform this without transforming, but still retains this as Evil Ryu
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div>Ren Hadoken</div>
+                                      </li>
+                                      <li>
+                                          <div>Baku Hadoken</div>
+                                      </li>
+                                      <li>
+                                          <div>Hado no Kamae</div>
+                                      </li>
+                                      <li>
+                                          <div>Hashogeki</div>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </li>
+                            <li class="details">
+                                <input type="checkbox" id="other">
+                                <label for="other" class="summary">Joudan Sokutageri</label>
+                                <div>
+                                    A slow yet hard-hitting forward-stepping side kick. More powerful versions of this move can send opponents flying off walls
+                                </div>
+                              </li>
+                              <li class="details">
+                                  <input type="checkbox" id="other">
+                                  <label for="other" class="summary">Mind’s Eye</label>
+                                  <div>
+                                      My V-Skill, based on the parry mechanic from Street Fighter III and the Hanagashi move given to me in USFIV’s Omega Mode. I enter a stance, during which he can parry an incoming attack
+                                  </div>
+                                </li>
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">Denjin Renki</label>
+                                    <div>
+                                        My first V-Trigger. All of Ryu’s moves, in particular the Hadoken and Shoryuken, gain electric properties. I can charge up my Hadoken to break through an opponent’s defenses, and my Shinkuu Hadoken is automatically upgraded to the Denjin Hadoken in this state, although performing it ends the V-Trigger
+                                    </div>
+                                  </li>
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Kakko Fubatsu</label>
+                                      <div>
+                                         My second V-Trigger. He gains access to a counterattack called Isshin, which forces opponents into a crumple state and leaves them open to follow-up attacks
+                                      </div>
+                                    </li> 
+                                  <li class="details">
+                                        <input type="checkbox" id="other">
+                                        <label for="other" class="summary">Collarbone Breaker</label>
+                                        <div>
+                                            An overhead punch primarily meant to break the guard of crouching opponents
+                                        </div>
+                                  </li> 
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Solar Plexus Punch</label>
+                                      <div>
+                                          A crushing blow to the enemy’s midsection
+                                      </div>
+                                </li>  
+                  </ul>
+                </section>
+                <section>
                   <h3>Fun facts&#x1F602;</h3>
-                  <ul>
+                  <ul class="fun-facts">
                     <li>
                       <p>In most promotional art, my eyebrow can be seen through my headband</p>
                     </li>
@@ -265,7 +406,6 @@
                       <p>I hate spider</p>
                     </li>
                   </ul>
-                  
                 </section>
               </div>
             </div>
