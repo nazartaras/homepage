@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/secondary.css">
     <title>Résumé</title>
   </head>
   <body>
@@ -13,7 +14,12 @@
             <div class="row">
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/avatar.svg" role="img" aria-label="My avatar"></object>
+                  <object class="avatar" data="./assets/avatar.svg" role="img" aria-label="My avatar" id="avatarNormal"></object>
+                  <object class="avatar" data="./assets/avatarEvil.svg" role="img" aria-label="My evil alter ego avatar" style="display:none;" id="avatarEvil"></object>
+                </div>
+                <div class="avatar-switch-wrapper">
+                  <button id="btnShowAvatarNormal">Normal</button>
+                  <button id="btnShowAvatarEvil">Evil</button>
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -206,12 +212,68 @@
                   <h3>Wants&#x1f97a;</h3>
                   <p class="tags small">BE FIT WRITE MORE BOOKS FIND A GIRLFRIEND TO GO TO CINEMA WITH KILL ALL OF AKUMA FAMILY</p>
                 </section>
+
+                <section>
+                  <h3>Enemies&#x1F621;</h3>
+                  <ul class="enemies">
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">M. Bison</label>
+                    <div>
+                      One of my mortal enemies, <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> has repeatedly tried to capture me in hopes of using my body as a host or brainwash me into being a member of <a href="https://streetfighter.fandom.com/wiki/Shadaloo">Shadaloo</a>. Due to me having the <a href="https://streetfighter.fandom.com/wiki/Satsui_no_Hado">Satsui no Hado</a>, this is part of <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> plan to control that dark power for himself. Ultimately, I'm the one who finally defeated <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> once and for all.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Seth</label>
+                    <div>
+                      One of my greatest enemies, I despises <a href="https://streetfighter.fandom.com/wiki/Seth">Seth</a> and vice versa due to their different philosophies on power and on how to acquire it.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Gill</label>
+                    <div>
+                      <a href="https://streetfighter.fandom.com/wiki/Gill">Gill</a> is one of my enemies. I find <a href="https://streetfighter.fandom.com/wiki/Gill">Gill</a> to be no better than <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> due to his actions and the lengths he has gone to achieve them.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Akuma</label>
+                    <div>
+                      <a href="https://streetfighter.fandom.com/wiki/Akuma">Akuma</a> is one of my most hated enemies, as he was the one who tried to kill his master, <a href="https://streetfighter.fandom.com/wiki/Gouken">Gouken</a>. <a href="https://streetfighter.fandom.com/wiki/Akuma">Akuma</a> also attempts to lure me into succumbing to the <a href="https://streetfighter.fandom.com/wiki/Satsui_no_Hado">Satsui no Hado</a>, therefore casting aside my humanity, in hopes of finally finding a worthy opponent for the ultimate fight to the death that he seeks. I know this is a trap of temptation planned by <a href="https://streetfighter.fandom.com/wiki/Akuma">Akuma</a>, as I tried my best to find a way to get rid of the <a href="https://streetfighter.fandom.com/wiki/Satsui_no_Hado">Satsui no Hado</a> while refusing to succumb to that kind of power.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Adon</label>
+                    <div>
+                      <a href="https://streetfighter.fandom.com/wiki/Adon">Adon</a> seeks to defeat me in order to prove that he has surpassed his former master <a href="https://streetfighter.fandom.com/wiki/Sagat">Sagat</a>.
+                    </div>
+                  </li>
+                </ul>
+                </section>
+                <section>
+                  <h3>Fun facts&#x1F602;</h3>
+                  <ul>
+                    <li>
+                      <p>In most promotional art, my eyebrow can be seen through my headband</p>
+                    </li>
+                    <li>
+                      <p>I like beans</p>
+                    </li>
+                    <li>
+                      <p>I hate spider</p>
+                    </li>
+                  </ul>
+                  
+                </section>
               </div>
             </div>
           </div>
         </div>
       </article>
     </main>
-    
+    <script src="assets/secondary.js"></script>
   </body>
 </html>
