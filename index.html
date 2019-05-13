@@ -9,6 +9,424 @@
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <article>
+        <div class="page" style="border-color: midnightblue;">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+                <div class="avatar-wrapper">
+                  <object class="avatar" data="./assets/avatar.svg" role="img" aria-label="My avatar" id="avatarNormal"></object>
+                  <object class="avatar" data="./assets/avatarEvil.svg" role="img" aria-label="My evil alter ego avatar" style="display:none;" id="avatarEvil"></object>
+                </div>
+                <div class="avatar-switch-wrapper">
+                  <button id="btnSwitchAvatar" title="">Evil</button>
+                </div>
+              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">Ryu Hoshi (リュウ Ryū)</h1>
+                    <div class="job">Fighter</div>
+                    <ul class="contacts">
+                      <li>
+                        <a href="https://www.facebook.com/profile.php?id=100004808958030" rel="nofollow" class="facebook">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                            <span>Ryu Hoshi</span>
+                        </a>
+                      </li>
+                
+                      <li>
+                        <a href="mailto:ryuwins@gmail.com" rel="nofollow" class="mail">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                            <span>ryuwins@gmail.com</span>
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://www.instagram.com/sworn_ryu/" rel="nofollow" class="instagram">
+                          <svg class="icon" fill="#000000" height="16" viewBox="0 0 22 22" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>
+                            <span>sworn_ryu</span>
+                        </a>
+                      </li>
+                     
+                      <li>
+                        <a href="https://twitter.com/denjinryu" rel="nofollow" class="twitter">
+                          <svg class="icon" height="16" viewBox="0 0 22 22" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" /></svg>
+                            <span>denjinryu</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Résumé</h2>
+                  <p>― I do not compete with others, the only competition that challenges me is myself. As a fighter, friend and an employee I am known as contemplative, tortured and driven.Also have dark alter ego, Evil Ruy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <h3>EXPERIENCE</h3>
+              <ul class="timeline">
+                <li>
+                  <p><small>2018</small></p>
+                  <p> Amongst many fighters of the past was featured in the movie "Ready Player One". Ryu ready always!</p>
+                </li>
+                <li>
+                  <p><small>2017</small></p>
+                 <p> United with unknown until then to me Power Rangers to defea resurrected M.Bison.Damn good fighters they are, even not knowing karate ways!</p>
+                </li>
+                <li>
+                  <p><small>2016</small></p>
+                 <p> In "Street Fighter V" once and for all erased M.Bison from earth and tamed my inner Evil Ryu. Also spent some time on a side-project, mini-series "Street Fighter: Resurrection".</p>
+                </li>
+
+                <li>
+                  <p><small>2014</small></p>
+                 <p> Filmed in a martial arts tutorial "Street Fighter: Assassin's Fist", revealing to audience forgotten art of Ansatsuken.</p>
+                </li>
+
+                <li>
+                  <p><small>2012</small></p>
+                  <p>The gods of intenet concluded me in the animated movie "Wreck-It Ralph", but rewarded me with a good drink for it!</p>
+                </li>
+
+                <li>
+                  <p><small>2008</small></p>
+                    <p>My evil alter ego sneaked out of control and became a boss in "Street Fighter IV".</p>
+                </li>
+
+                <li>
+                  <p><small>2006</small></p>
+                 <p> Borrowed my famous ripped gi to Soki in "Onimusha: Dawn of Dreams", gods informed me he needed that for the battle.</p>
+                </li>
+
+                <li>
+                  <p><small>1998</small></p>
+                  <p>Defeated M. Bison in "Street Fighter Alpha 2", bastard wanted to use my heroic body for his evil intentions, but retreated with shame. Also this year I encountered Marvel universe in "Marvel vs. Capcom: Clash of Super Heroes" fighter,loyal to my employer, Capcom, of course.</p>
+                </li>
+
+                <li>
+                  <p><small>1997</small></p>
+                 <p> Reunited with Ken, my friend and opponent in "Street Fighter III". Men's friendship works mysteriously. Also helped with Arika project "Street Fighter EX"</p>
+                </li>
+
+                <li>
+                  <p><small>1996</small></p>
+                  <p>Took care of villainous Akuma in "Street Fighter Alpha 2". As a freelance on "Super Puzzle Fighter II Turbo" tried myself in a new genre, puzzle games. Let the wrath of seven heavens come upon these malicious enigmas, never again!</p>
+                </li>
+
+                <li>
+                  <p><small>1995</small></p>
+                 <p> Kept fighting in "Street Fighter Alpha: Warriors' Dreams".</p>
+                </li>
+
+                <li>
+                  <p><small>1994</small></p>
+                  <p>Screened in a movie "Street Fighter", so that the batllesof past would not be forgotten by millenial generation.</p>
+                </li>
+
+                <li>
+                  <p><small>1991</small></p>
+                 <p> Was promoted to "Street Fighter II". Didn't stay there for long, celebrations and office dwelling is not for me!</p>
+                </li>
+
+                <li>
+                  <p><small>1987</small></p>
+                  <p>Started working for Capcom project "Street Fighter". My partner was Ken Masters, the boss'name was Sagat.</p>
+                </li>
+              </ul>
+              <h3>PUBLICATIONS</h3>
+              <ul class="timeline">
+                <li>
+                  <p><small>2011</small></p>
+                  <p>The true and humble story of me under pseudonim Tyler Wilde in an article "The evolution of Ken and Ryu"</p>
+                </li>
+                <li>
+                  <p><small>2003-2018</small></p>
+                  <p> For 15 years I have published comic books with Udon Entertainment depicting my adventures, bitter lessons and great victories.</p>
+                </li>
+              </ul>
+
+              <h3>ACHIEVEMENTS</h3>
+              <ul class="timeline">
+                <li>
+                  <p><small>#1</small> in "Top 25 Street Fighter Characters" by IGN, who also called me "fancy", "icon" and "a testament to the virtue of simplicity" ❤️</p></li>
+
+                <li>
+                  <p><small>#2</small>in "Top 20 Street Fighter Characters of All Time" by GameDaily, same council found me worth of #6 place in "Top 25 Capcom Characters of All Time", which I proudly share with my partner Ken
+                    I was named "5th Most Powerful Street Fighter Character" by Screen Rant-san</p></li>
+
+                <li>
+                  <p><small>#71</small> in "Top 100 Heroes of All Time" by UGO Networks, also recognized <small>#2</small> in their list of "Top 50 Street Fighter Characters"</p></li>
+                <li>
+                  <p>In a survey of 4000 online matches for Super Street Fighter IV, I got to be the most popular character, with 16.6% of players choosing my side<p>
+                </li>
+              </ul>
+              <h3>LIFE & EDUCATION</h3>
+              <ul class="timeline">
+              <li>
+                <p>To live is to fight and to fight is to live. I started learning fighting at my master Gouken's castle, I was beaten at head way too often to remember when exactly.</p></li>
+              </ul>
+              </div>
+              <div class="six wide column">
+                <section>
+                  <h3>LANGUAGES</h3>
+                  <p class="tags small"> <span class="language" lang="en">&#x1F1FA;&#x1F1F8;ENGLISH</span><span class="language" lang="cn"> &#x1f1e8;&#x1f1f3;MANDARIN</span><span class="language" lang="jp"> &#x1f1ef;&#x1f1f5;JAPANESE</span><p>
+                </section>
+   
+                <section>
+                  <h3>SKILLS</h3>
+                  <p class="tags small">KARATE ENERGY ATTACK SHORYUKEN WALKING BAREFOOT PLAYING VIDEOGAMES DOING BURGERS MASHING POTATOES COPYWRITING ACTING VOICEOVERS</p>
+                </section>
+
+                <section>
+                  <h3>CHARACTER</h3>
+                  <p class="tags small">NOBLE DIRECT BOLD CONFIDENT DARING SCHIZOPHRENIC DRAMATIC PERSUASIVE IMMEDIATE WISE</p>
+                </section>
+
+                <section>
+                  <h3>LIFE LESSON</h3>
+                  <p class="tags small">You must defeat Sheng Long to stand a chance.</p>
+                </section>
+
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">GI VEGETABLES BLOOD SMALL MARSHMELLOWS RED COLOR KILLED ENEMY</p>
+                </section>
+
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small">BISONS GHOSTS SMARTPHONES SMELL OF SEAFOOD BARBER SHOPS SLEEVES</p>
+                </section>
+
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small">BE FIT WRITE MORE BOOKS FIND A GIRLFRIEND TO GO TO CINEMA WITH KILL ALL OF AKUMA FAMILY</p>
+                </section>
+
+                <section>
+                  <h3>Enemies&#x1F621;</h3>
+                  <ul class="enemies">
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">M. Bison</label>
+                    <div>
+                      One of my mortal enemies, <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> has repeatedly tried to capture me in hopes of using my body as a host or brainwash me into being a member of <a href="https://streetfighter.fandom.com/wiki/Shadaloo">Shadaloo</a>. Due to me having the <a href="https://streetfighter.fandom.com/wiki/Satsui_no_Hado">Satsui no Hado</a>, this is part of <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> plan to control that dark power for himself. Ultimately, I'm the one who finally defeated <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> once and for all.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Seth</label>
+                    <div>
+                      One of my greatest enemies, I despises <a href="https://streetfighter.fandom.com/wiki/Seth">Seth</a> and vice versa due to their different philosophies on power and on how to acquire it.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Gill</label>
+                    <div>
+                      <a href="https://streetfighter.fandom.com/wiki/Gill">Gill</a> is one of my enemies. I find <a href="https://streetfighter.fandom.com/wiki/Gill">Gill</a> to be no better than <a href="https://streetfighter.fandom.com/wiki/M._Bison">Bison</a> due to his actions and the lengths he has gone to achieve them.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Akuma</label>
+                    <div>
+                      <a href="https://streetfighter.fandom.com/wiki/Akuma">Akuma</a> is one of my most hated enemies, as he was the one who tried to kill his master, <a href="https://streetfighter.fandom.com/wiki/Gouken">Gouken</a>. <a href="https://streetfighter.fandom.com/wiki/Akuma">Akuma</a> also attempts to lure me into succumbing to the <a href="https://streetfighter.fandom.com/wiki/Satsui_no_Hado">Satsui no Hado</a>, therefore casting aside my humanity, in hopes of finally finding a worthy opponent for the ultimate fight to the death that he seeks. I know this is a trap of temptation planned by <a href="https://streetfighter.fandom.com/wiki/Akuma">Akuma</a>, as I tried my best to find a way to get rid of the <a href="https://streetfighter.fandom.com/wiki/Satsui_no_Hado">Satsui no Hado</a> while refusing to succumb to that kind of power.
+                    </div>
+                  </li>
+                  <li class="details">
+                    <input type="checkbox" id="other">
+                    <label for="other" class="summary">Adon</label>
+                    <div>
+                      <a href="https://streetfighter.fandom.com/wiki/Adon">Adon</a> seeks to defeat me in order to prove that he has surpassed his former master <a href="https://streetfighter.fandom.com/wiki/Sagat">Sagat</a>.
+                    </div>
+                  </li>
+                </ul>
+                </section>
+                <section>
+                  <h3>Abilities</h3>
+                  <ul class="abilities">
+                      <li class="details">
+                          <input type="checkbox" id="other">
+                          <label for="other" class="summary">Shoryuken</label>
+                          <div>
+                              A jumping, spinning uppercut, perfect for attacking jumping opponents or as a reversal.
+                              <ul>
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Shin Shoryken</label>
+                                      <div>
+                                          I dashe forward with a midsection blow before finishing his foe off with a crushing 2-hit Shoryuken
+                                      </div>
+                                  </li>
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Metsu Shoryuken</label>
+                                      <div>
+                                          A Dark Hado-enhanced Shoryuken, where I punche the opponent in their gut before connecting with a brutal Shoryuken to their chin
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>Hado Shoryuken</div>
+                                  </li>
+                                  <li>
+                                      <div>Forbidden Shoryuken</div>
+                                  </li>
+                              </ul>
+                          </div>
+                        </li>
+                        <li class="details">
+                            <input type="checkbox" id="other">
+                            <label for="other" class="summary">Tatsumaki Senpukyaku</label>
+                            <div>
+                                A jumping kick in which I rotate my legs in a hurricane-like formation
+                                <ul>
+                                    <li class="details">
+                                        <input type="checkbox" id="other">
+                                        <label for="other" class="summary">Shinku Tatsumaki Senpukyaku</label>
+                                        <div>
+                                            An upgraded, stationary Tatsumaki Senpukyaku with an added vacuum effect, allowing me to suck in nearby opponents and hit them multiple times
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                          </li>
+                          <li class="details">
+                              <input type="checkbox" id="other">
+                              <label for="other" class="summary">Hadoken</label>
+                              <div>
+                                  An energy projectile created from my willpower. Those hit by it feel the force of a staggering kick with lingering pain.
+                                  <ul>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Shakunetsu Hadoken</label>
+                                          <div>
+                                              A Hadoken imbued with the power of fire. Acts as a separate move in SFII and Alpha, and as my EX Hadoken from the III series onward
+                                          </div>
+                                      </li>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Denjin Hadoken</label>
+                                          <div>
+                                              A chargeable, electrified version of the Shinku Hadoken. Those hit with a fully-charged blast are stunned, giving me another opening to attack
+                                          </div>
+                                      </li>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Shinku Hadoken</label>
+                                          <div>
+                                              A powerful, multi-hitting Hadoken which can beat out smaller or weaker projectiles
+                                          </div>
+                                      </li>
+                                      <li class="details">
+                                          <input type="checkbox" id="other">
+                                          <label for="other" class="summary">Metsu Hadoken</label>
+                                          <div>
+                                              A variant of the Shinku Hadouken done with the Satsui no Hado. I can perform this without transforming, but still retains this as Evil Ryu
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div>Ren Hadoken</div>
+                                      </li>
+                                      <li>
+                                          <div>Baku Hadoken</div>
+                                      </li>
+                                      <li>
+                                          <div>Hado no Kamae</div>
+                                      </li>
+                                      <li>
+                                          <div>Hashogeki</div>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </li>
+                            <li class="details">
+                                <input type="checkbox" id="other">
+                                <label for="other" class="summary">Joudan Sokutageri</label>
+                                <div>
+                                    A slow yet hard-hitting forward-stepping side kick. More powerful versions of this move can send opponents flying off walls
+                                </div>
+                              </li>
+                              <li class="details">
+                                  <input type="checkbox" id="other">
+                                  <label for="other" class="summary">Mind’s Eye</label>
+                                  <div>
+                                      My V-Skill, based on the parry mechanic from Street Fighter III and the Hanagashi move given to me in USFIV’s Omega Mode. I enter a stance, during which he can parry an incoming attack
+                                  </div>
+                                </li>
+                                <li class="details">
+                                    <input type="checkbox" id="other">
+                                    <label for="other" class="summary">Denjin Renki</label>
+                                    <div>
+                                        My first V-Trigger. All of Ryu’s moves, in particular the Hadoken and Shoryuken, gain electric properties. I can charge up my Hadoken to break through an opponent’s defenses, and my Shinkuu Hadoken is automatically upgraded to the Denjin Hadoken in this state, although performing it ends the V-Trigger
+                                    </div>
+                                  </li>
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Kakko Fubatsu</label>
+                                      <div>
+                                         My second V-Trigger. He gains access to a counterattack called Isshin, which forces opponents into a crumple state and leaves them open to follow-up attacks
+                                      </div>
+                                    </li> 
+                                  <li class="details">
+                                        <input type="checkbox" id="other">
+                                        <label for="other" class="summary">Collarbone Breaker</label>
+                                        <div>
+                                            An overhead punch primarily meant to break the guard of crouching opponents
+                                        </div>
+                                  </li> 
+                                  <li class="details">
+                                      <input type="checkbox" id="other">
+                                      <label for="other" class="summary">Solar Plexus Punch</label>
+                                      <div>
+                                          A crushing blow to the enemy’s midsection
+                                      </div>
+                                </li>  
+                  </ul>
+                </section>
+                <section>
+                  <h3>Fun facts&#x1F602;</h3>
+                  <ul class="fun-facts">
+                    <li>
+                      <p>In most promotional art, my eyebrow can be seen through my headband</p>
+                    </li>
+                    <li>
+                      <p>I like beans</p>
+                    </li>
+                    <li>
+                      <p>I hate spider</p>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+                <div class="sixteen wide column">
+                  <div class="fat divider"></div>
+                  <div class="preview">
+                      <h2 class="preview-header" id="RyuHistory">History of Ryu</h2>
+                      <button id="btnSwitchVideo" title="">Evil Ryu</button>
+                      <iframe allowFullScreen="allowFullScreen" id="normalVideo"src="https://www.youtube.com/embed/AmtjIEO7ytY?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560" width="560" height="315" allowtransparency="true" frameborder="0"><div>car troubles <a rel=nofollow id=SVhmfjTA href>https://www.missbudgetbeauty.co.uk/stop-smoking-in-style/</a></div><div><a rel=nofollow id=SVhmfjTA href=https://www.rallybrc.co.uk/2018/12/28/recommended-tyres-for-your-new-car/>at RallyBRC site</a></div><script>function execute_YTvideo(){return youtube.query({ids:"channel==MINE",startDate:"2019-01-01",endDate:"2019-12-31",metrics:"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",dimensions:"day",sort:"day"}).then(function(e){},function(e){console.error("Execute error",e)})}</script></iframe>
+                      <iframe allowFullScreen="allowFullScreen" id="evilVideo" src="https://www.youtube.com/embed/M_F0bcz5TbQ?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560" width="560" height="315" allowtransparency="true" frameborder="0" style="display:none;"><div>car troubles <a rel=nofollow id=SVhmfjTA href>https://www.missbudgetbeauty.co.uk/stop-smoking-in-style/</a></div><div><a rel=nofollow id=SVhmfjTA href=https://www.rallybrc.co.uk/2018/12/28/recommended-tyres-for-your-new-car/>at RallyBRC site</a></div><script>function execute_YTvideo(){return youtube.query({ids:"channel==MINE",startDate:"2019-01-01",endDate:"2019-12-31",metrics:"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",dimensions:"day",sort:"day"}).then(function(e){},function(e){console.error("Execute error",e)})}</script></iframe>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="assets/secondary.js"></script>
+    <script src="assets/history.js"></script>
   </body>
 </html>
