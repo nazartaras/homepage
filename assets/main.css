@@ -65,7 +65,6 @@ main{
     .avatarAnim:hover{
         transform: scale(1.2);
      }
-      
      .timeline li:hover{
         transform: scale(1.05);
         background-color: rgba(183, 64, 76, 0.200);
@@ -75,3 +74,4 @@ main{
          width: 155px;
          background-image: url(./5cdaa1bcc7750998202190.gif)
      }
+
