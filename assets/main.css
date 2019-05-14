@@ -9,11 +9,20 @@
     padding-left: 2em;
 }
 main{
-    background: #f0f0f0; /* Old browsers */
-    background: -moz-linear-gradient(top, #f0f0f0 0%, #e3e3e3 33%, #d4d4d4 78%, #e7e7e7 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #f0f0f0 0%,#e3e3e3 33%,#d4d4d4 78%,#e7e7e7 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #f0f0f0 0%,#e3e3e3 33%,#d4d4d4 78%,#e7e7e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgb(183,64,76); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(183,64,76,1) 35%, rgba(183,100,109,1) 69%,  rgba(183,100,109,1) 77%, rgba(181,123,128,1) 80%,  rgba(255,255,255,1) 100%); 
+    background: -webkit-linear-gradient(top, rgba(183,64,76,1) 35%,rgba(183,100,109,1) 69%,rgba(183,100,109,1) 77%,rgba(181,123,128,1) 80%,rgba(255,255,255,1) 100%); 
+    background: linear-gradient(to bottom, rgba(183,64,76,1) 35%,rgba(183,100,109,1) 69%,rgba(183,100,109,1) 77%,rgba(181,123,128,1) 80%,rgba(255,255,255,1) 100%); 
+    animation: load 2.0s;
 }
+@keyframes load{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
 .avatar-switch-wrapper button{
     background-color:midnightblue;
     color: white;
@@ -50,4 +59,18 @@ main{
         opacity: 0.8;
        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    
+    .avatarAnim{
+        transition: all 1s ease-out;
+     }
+    .avatarAnim:hover{
+        transform: scale(1.2);
+     } 
+     .timeline li:hover{
+        transform: scale(1.05);
+        background-color: rgba(183, 64, 76, 0.200);
+     }
+     .ryu-gif{
+         height: 300px;
+         width: 155px;
+         background-image: url(./5cdaa1bcc7750998202190.gif)
+     }
